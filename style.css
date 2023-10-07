@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 255, 255);
+    font-size: 80px;
+    padding: 20px;
+    padding-top:40px;
+    font-family: 'Unna', serif;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.coverImage{
+    width: 400px;
+}
+
+.optionsContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    gap: 40px;
+    padding-bottom:50px;
+}
+
+a{
+    color: rgb(252, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+
+}
