@@ -11,9 +11,16 @@ h1{
     font-size: 80px;
     padding: 20px;
     padding-top:40px;
-    font-family: 'Unna', serif;
+    /*font-family: 'Unna', serif; */
+    font-family: 'Cormorant Garamond', serif;
 }
 
+h2{
+    color: rgb(252, 255, 255);
+    font-size: 40px;
+    margin-left: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
 .imageContainer{
     display: flex;
     justify-content: center;
@@ -35,5 +42,19 @@ a{
     color: rgb(252, 255, 255);
     font-size: 30px;
     text-decoration: none;
+}
 
+
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
+}
+.headshot{
+    width: 200px;
+    padding: 8px;
 }
